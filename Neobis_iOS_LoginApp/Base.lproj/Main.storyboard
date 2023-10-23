@@ -91,6 +91,9 @@
                                             </userDefinedRuntimeAttribute>
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="signIn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wde-7X-lP1"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="poi-xb-g81">
                                         <rect key="frame" x="145.66666666666666" y="660" width="122.99999999999997" height="35"/>
@@ -129,6 +132,10 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Zrm-SE-ed1" secondAttribute="bottom" id="uZ5-RP-yfb"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="password" destination="cT5-Bt-A0L" id="MI0-PL-fj4"/>
+                        <outlet property="username" destination="tST-05-mTT" id="bjy-7T-81D"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
